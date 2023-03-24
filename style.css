@@ -29,11 +29,25 @@ font-size: 48px;
     color: #e5e7eb;
     background-color: #3882f6;
 }
+/*information*/
 .info>p{
     font-size: 36px;
     font-weight: bolder;
     color:#1f2937;
 }
+/*quote*/
+.quote{
+    background-color: #e5e7eb;
+}
+.line>p{
+    font-size:36px;
+    font-weight: lighter;
+    color:#1f2937;
+}
+.author>p{
+    font-weight: bold;
+}
+
 
 /* for the designing the layout using flexbox and margin/paddings */
 
@@ -73,6 +87,8 @@ font-size: 48px;
 }
 
 /* main-content */
+
+/*information*/
 .info>p{
     margin:40px;
     display: flex;
@@ -95,3 +111,22 @@ font-size: 48px;
     text-align: center;
     max-width: 200px;
 }
+
+/*quote*/
+.quote{
+    padding:5em;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin:30px 0;
+}
+
+.line{
+    
+    align-self: center;
+}
+.author{
+    align-self: flex-end;
+}
+
+/*action*/
