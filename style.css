@@ -93,7 +93,10 @@ font-size: 48px;
     width:500px;
     height:300px;
 }
-
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
 /* main-content */
 
 /*information*/
@@ -166,3 +169,11 @@ font-size: 48px;
     border-radius: 5px; 
 }
 
+/*footer*/
+.footer{
+    padding:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
