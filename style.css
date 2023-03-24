@@ -56,10 +56,15 @@ font-size: 48px;
 .action p{
     color: #e5e7eb;
 }
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
 
 /* for the designing the layout using flexbox and margin/paddings */
 
 /*top */
+
 .header
 {
     display:flex;
@@ -92,10 +97,6 @@ font-size: 48px;
     margin:10px;
     width:500px;
     height:300px;
-}
-.footer{
-    background-color: #1f2937;
-    color: #e5e7eb;
 }
 /* main-content */
 
